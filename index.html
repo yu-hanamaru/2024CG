@@ -2,21 +2,23 @@
 <HTML>
 
 <HEAD>
-<meta charset="UTF-8">
-<title>JavaScriptの基礎</title>
+	<meta charset="UTF-8">
+	<title>JavaScriptの基礎</title>
 </HEAD>
 
 <BODY>
-<script type="text/javascript">
-today = new Date();
-document.write(today);
-document.write(“<h1>コンピュータグラフィックス</h1>");
-document.write("<p>担当 中村直人</p>");
-document.write(“<p>この授業では、WebGLを用いてコンピュータグラフィックス
-を作成します。</p>");
-var image = new Image(128,128); 
-document.body.appendChild(image); 
-</script>
+    <script type="text/javascript">
+        today = new Date();
+        document.write(today);
+        document.write("<h1>コンピュータグラフィックス</h1>");
+        document.write("<p>担当　中村直人</p>");
+        document.write("<p>この授業では、WebGLを用いてコンピュータグラフィックスを作成します。</p>");
+    
+        var image = new Image(128,128);
+        image.src = "ganba.png"; 
+        document.body.appendChild(image); 
+    </script>
+
 </BODY>
 
 </HTML>
